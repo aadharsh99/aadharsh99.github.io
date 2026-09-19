@@ -388,6 +388,7 @@
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
+            grid-auto-rows: max-content;
         }
 
         .project-card {
@@ -771,6 +772,32 @@
             <div class="projects-grid">
                 
                 <div class="project-card">
+                    <div class="project-icon">🛡️</div>
+                    <h3 class="project-title">Wazuh SIEM Lab on Proxmox VE</h3>
+                    <p class="project-desc">Security monitoring laboratory implementing Wazuh 4.14.6 on Proxmox VE 9.2.4. Demonstrates virtualization, private networking, NAT/DNAT configuration, endpoint onboarding, custom detection engineering for SSH password spraying and sudo privilege escalation, controlled attack simulation, and alert validation with MITRE ATT&CK mapping.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Wazuh</span>
+                        <span class="project-tag">Proxmox</span>
+                        <span class="project-tag">SIEM</span>
+                        <span class="project-tag">Detection Rules</span>
+                    </div>
+                    <a href="https://github.com/aadharsh99/Implementation-of-Wazuh-inside-Proxmox" class="project-link" target="_blank">View on GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">🕵️</div>
+                    <h3 class="project-title">Splunk SOC Home Lab</h3>
+                    <p class="project-desc">End-to-end security operations center lab demonstrating threat detection and incident response. Ingests telemetry from Suricata, IIS, Windows Event Logs, and Sysmon into Splunk SIEM. Includes detection rules, investigation methodology, MITRE ATT&CK mapping, and automated case creation in DFIR-IRIS using Python webhook bridge.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Splunk</span>
+                        <span class="project-tag">Suricata</span>
+                        <span class="project-tag">DFIR-IRIS</span>
+                        <span class="project-tag">Detection Engineering</span>
+                    </div>
+                    <a href="https://github.com/aadharsh99/Splunk-Home-Lab" class="project-link" target="_blank">View on GitHub</a>
+                </div>
+
+                <div class="project-card">
                     <div class="project-icon">📋</div>
                     <h3 class="project-title">SOC Log Analyzer</h3>
                     <p class="project-desc">Python-based security log analyzer for SOC operations. Detects SSH brute-force attacks, SQL injection attempts, XSS payloads, and path traversal in auth logs, web server logs, and syslog. Generates detailed JSON threat reports with severity levels.</p>
@@ -795,20 +822,6 @@
                     </div>
                     <a href="https://github.com/aadharsh99/aws_checker" class="project-link" target="_blank">View on GitHub</a>
                 </div>
-
-                <div class="project-card">
-                    <div class="project-icon">🕵️</div>
-                    <h3 class="project-title">Splunk SOC Home Lab</h3>
-                    <p class="project-desc">End-to-end security operations center lab demonstrating threat detection and incident response. Ingests telemetry from Suricata, IIS, Windows Event Logs, and Sysmon into Splunk SIEM. Includes detection rules, investigation methodology, MITRE ATT&CK mapping, and automated case creation in DFIR-IRIS using Python webhook bridge.</p>
-                    <div class="project-tags">
-                        <span class="project-tag">Splunk</span>
-                        <span class="project-tag">Suricata</span>
-                        <span class="project-tag">DFIR-IRIS</span>
-                        <span class="project-tag">Detection Engineering</span>
-                    </div>
-                    <a href="https://github.com/aadharsh99/Splunk-Home-Lab" class="project-link" target="_blank">View on GitHub</a>
-                </div>
-
 
                 <div class="project-card">
                     <div class="project-icon">🔌</div>
@@ -848,20 +861,6 @@
                     </div>
                     <a href="https://github.com/aadharsh99/tpot-honeypot" class="project-link" target="_blank">View on GitHub</a>
                 </div>
-
-                <div class="project-card">
-                    <div class="project-icon">🛡️</div>
-                    <h3 class="project-title">Wazuh SIEM Lab on Proxmox VE</h3>
-                    <p class="project-desc">Security monitoring laboratory implementing Wazuh 4.14.6 on Proxmox VE 9.2.4. Demonstrates virtualization, private networking, NAT/DNAT configuration, endpoint onboarding, custom detection engineering for SSH password spraying and sudo privilege escalation, controlled attack simulation, and alert validation with MITRE ATT&CK mapping.</p>
-                    <div class="project-tags">
-                        <span class="project-tag">Wazuh</span>
-                        <span class="project-tag">Proxmox</span>
-                        <span class="project-tag">SIEM</span>
-                        <span class="project-tag">Detection Rules</span>
-                    </div>
-                    <a href="https://github.com/aadharsh99/Implementation-of-Wazuh-inside-Proxmox" class="project-link" target="_blank">View on GitHub</a>
-                </div>
-
 
                 <div class="project-card">
                     <div class="project-icon">🔐</div>
@@ -905,8 +904,6 @@
         </div>
     </section>
 
-    
-
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
@@ -928,7 +925,7 @@
                 </div>
                 <div class="contact-item">
                     <div class="contact-label">🔗 LINKEDIN</div>
-                    <a href="https://www.linkedin.com/in/aadharsh100/" target="_blank" class="contact-link">LinkedIn Profile</a>
+                    <a href="https://linkedin.com/in/aadharsh-anbuchezhian" target="_blank" class="contact-link">LinkedIn Profile</a>
                 </div>
             </div>
         </div>
